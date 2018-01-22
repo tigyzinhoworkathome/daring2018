@@ -1,0 +1,375 @@
+@charset "utf-8";
+/* CSS Document */
+
+.TDesigner {
+  background: #f2f2f2 none repeat scroll 0 0;
+  height: auto;
+  overflow: hidden;
+  padding: 12px;
+  position: relative;
+  width: 100%;
+}
+
+
+.TDesigner .menu {
+  background: #ddd none repeat scroll 0 0;
+  height: 100%;
+  left: -100px;
+  position: absolute;
+  top: 0;
+  transition: all 1s ease 0s;
+  width: 80px;
+  z-index: 1000;
+}
+
+.TDesigner:hover .menu {
+
+  left: 0px;
+
+}
+
+.TDesigner .menu .item {
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+
+.TDesigner .menu .item .icon{
+
+  font-size: 40px;
+
+}
+
+.TDesigner .menu .loading{
+  display: none;
+	}
+
+
+
+
+.TDesigner .menu .item:hover .child {
+  background: #ddd none repeat scroll 0 0;
+  display: block;
+  left: 80px;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  width: 250px;
+}
+
+
+.TDesigner .menu .item .child {
+  display: none;
+  text-align: left;
+}
+
+.TDesigner .side-list {
+  max-height: 350px;
+  overflow-y: scroll;
+}
+.TDesigner .side-list li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.TDesigner .side-list img {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.TDesigner .side-list a {
+  display: inline-block;
+  font-size: 12px;
+  margin: 5px;
+  overflow: hidden;
+  padding: 5px;
+  text-align: left;
+  text-decoration: none;
+  vertical-align: top;
+  width: 60px;
+}
+
+.TDesigner .side-list .fa {
+  display: inline-block;
+  margin-top: 55px;
+}
+
+.TDesigner .side-list a.active {
+  border: 1px solid #999;
+}
+
+
+
+.TDesigner .designer {
+  background: #efefef none repeat scroll 0 0;
+  height: 100%;
+  padding-left: 80px;
+  padding-top: 80px;
+  text-align: center;
+  width: 100%;
+}
+
+.TDesigner .designer .bg-main{
+  background: #efefef none repeat scroll 0 0;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+}
+
+.TDesigner .designer .canvas-container {
+
+}
+ 
+.TDesigner #clipart-cat {
+  margin-bottom: 10px;
+}
+
+.TDesigner .clipart-list {
+  background: #f2f2f2 none repeat scroll 0 0;
+  max-height: 400px;
+  overflow-y: scroll;
+  padding: 10px 0;
+}
+
+.TDesigner .clipart-list img {
+  border-radius: 0;
+  box-shadow: none;
+  display: inline-block;
+  margin: 5px;
+  max-width: 60px;
+  vertical-align: top;
+}
+.TDesigner .clipart-pagination{}
+.TDesigner .clipart-pagination .page-numbers {
+  background: #f2f2f2 none repeat scroll 0 0;
+  color: rgba(0, 0, 0, 0.57);
+  display: inline-block;
+  margin: 5px 0 0 2px;
+  padding: 2px 10px;
+  text-decoration: none;
+}
+
+.TDesigner .clipart-pagination .current {
+  background: rgba(0, 0, 0, 0.15) none repeat scroll 0 0;
+}
+
+.TDesigner .clipart-pagination .next, .TDesigner .clipart-pagination .prev {
+display:none;
+}
+
+
+.TDesigner #plupload-clipart {
+  display: inline-block;
+}
+
+.TDesigner .clipart-upload {
+  background: #f2f2f2 none repeat scroll 0 0;
+  color: #666;
+  display: inline-block;
+  padding: 3px 10px;
+}
+
+
+
+
+
+.TDesigner .editing {
+  margin-left: 80px;
+}
+
+.TDesigner .editing .edit-text {
+  display: none;
+  position: absolute;
+}
+.TDesigner .editing .edit-text.active {
+  display: block;
+  
+}
+
+.TDesigner .editing .edit-img {
+  display: none;
+  position: absolute;
+}
+
+.TDesigner .editing .edit-img.active {
+  display: block;
+  
+}
+
+
+.TDesigner .editing .edit-shape {
+  display: none;
+  position: absolute;
+}
+
+.TDesigner .editing .edit-shape.active {
+  display: block;
+  
+}
+
+
+
+.TDesigner .editing #text-content {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 2px 4px;
+  vertical-align: top;
+  width: 100px;
+}
+
+
+
+
+.TDesigner .editing #font-size {
+  display: inline-block;
+  margin-bottom: 10px;
+  vertical-align: top;
+  width: 50px;
+}
+
+
+
+
+.TDesigner .editing #font-size {
+  display: inline-block;
+  padding: 2px;
+  vertical-align: top;
+  width: 50px;
+}
+
+.TDesigner .editing #font-color {
+  display: inline-block;
+  vertical-align: top;
+  width: 70px;
+}
+.TDesigner #font-family {
+  height: 24px;
+  padding: 0;
+  vertical-align: top;
+}
+
+.TDesigner .editing #font-opacity {
+  display: inline-block;
+  vertical-align: top;
+  width: 70px;
+}
+
+
+.TDesigner .editing #shape-color {
+  display: inline-block;
+  vertical-align: top;
+  width: 70px;
+}
+
+
+
+
+.TDesigner .editing .tool-button{
+  background: #ddd none repeat scroll 0 0;
+  cursor: pointer;
+  display: inline-block;
+  padding: 2px 9px;
+}
+
+.TDesigner .editing .item {
+  background: #ddd none repeat scroll 0 0;
+  cursor: pointer;
+  display: inline-block;
+  padding: 2px 9px;
+}
+
+
+
+.TDesigner .editing .tool-button.active{
+  background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
+}
+
+.TDesigner .editing #text-flip-h .fa {
+  transform: rotate(90deg);
+}
+
+
+
+.TDesigner .editing input[type="range"] {
+  vertical-align: top;
+}
+
+.TDesigner .editing .item:hover #text-rot-left, .TDesigner .editing .item:hover #text-rot-right {
+  display: inline-block;
+}
+
+.TDesigner .editing #text-rot-left, .TDesigner .editing #text-rot-right{
+  display: none;
+  margin: 0;
+  width: 70px;
+}
+
+
+
+
+.TDesigner-edit-link {
+  background: #ebe9eb none repeat scroll 0 0;
+  display: block;
+  font-size: 13px;
+  padding: 7px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+.TDesigner .templates  .template{}
+
+.TDesigner .templates .template.active {
+  color: #666;
+}
+
+
+
+
+
+.TDesigner .final {
+  display: none;
+  text-align: center;
+}
+
+.TDesigner .final .final-list {
+  max-height: 450px;
+  overflow-y: scroll;
+}
+.TDesigner .final .final-list li {
+  display: block;
+  margin: 15px 0;
+}
+
+.TDesigner .final .final-list li a {
+  display: inline-block;
+  vertical-align: top;
+  width: 150px;
+}
+
+.TDesigner .final .final-list li .fa {
+  display: inline-block;
+  margin-top: 100px;
+  vertical-align: top;
+  width: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

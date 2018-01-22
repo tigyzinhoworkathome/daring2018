@@ -1,0 +1,444 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Designer\n"
+"POT-Creation-Date: 2017-03-30 18:16+0600\n"
+"PO-Revision-Date: 2017-03-30 18:16+0600\n"
+"Last-Translator: \n"
+"Language-Team: PickPlugins <support@pickplugins.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ../includes\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-functions.php:25
+msgid "How to add sides"
+msgstr ""
+
+#: class-functions.php:31
+msgid "How to create update template"
+msgstr ""
+
+#: class-functions.php:37
+msgid "How to design product and submit order"
+msgstr ""
+
+#: class-functions.php:56
+msgid "Core"
+msgstr ""
+
+#: class-post-meta.php:40
+msgid "Clip Art Options"
+msgstr ""
+
+#: class-post-meta.php:57
+msgid "Tdesigner data"
+msgstr ""
+
+#: class-posttypes.php:32
+msgid "Add Clip Art"
+msgstr ""
+
+#: class-posttypes.php:33
+msgid "Edit Clip Art"
+msgstr ""
+
+#: class-posttypes.php:34
+msgid "New Clip Art"
+msgstr ""
+
+#: class-posttypes.php:35
+msgid "View Clip Art"
+msgstr ""
+
+#: class-posttypes.php:36
+msgid "Search Clip Art"
+msgstr ""
+
+#: class-posttypes.php:37 class-posttypes.php:110
+msgid "Nothing found"
+msgstr ""
+
+#: class-posttypes.php:38 class-posttypes.php:111
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: class-posttypes.php:75
+msgid "Search Clip Art Categories"
+msgstr ""
+
+#: class-posttypes.php:76
+msgid "All Clip Art Categories"
+msgstr ""
+
+#: class-posttypes.php:77
+msgid "Parent Clip Art Categories"
+msgstr ""
+
+#: class-posttypes.php:78
+msgid "Parent Clip Art Categories:"
+msgstr ""
+
+#: class-posttypes.php:79
+msgid "Edit Clip Art Categories"
+msgstr ""
+
+#: class-posttypes.php:80
+msgid "Update Clip Art Categories"
+msgstr ""
+
+#: class-posttypes.php:81
+msgid "Add Clip Art Categories"
+msgstr ""
+
+#: class-posttypes.php:82
+msgid "New Clip Art Categories Name"
+msgstr ""
+
+#: class-posttypes.php:83
+msgid "Clip Art Categories"
+msgstr ""
+
+#: class-posttypes.php:105
+msgid "Add Order"
+msgstr ""
+
+#: class-posttypes.php:106
+msgid "Edit Order"
+msgstr ""
+
+#: class-posttypes.php:107
+msgid "New Order"
+msgstr ""
+
+#: class-posttypes.php:108
+msgid "View Order"
+msgstr ""
+
+#: class-posttypes.php:109
+msgid "Search Order"
+msgstr ""
+
+#: class-settings.php:23
+msgid "Product Designer"
+msgstr ""
+
+#: class-settings.php:24 menu/help.php:25
+msgid "Help"
+msgstr ""
+
+#: designer-function.php:110
+msgid "Custom clipart"
+msgstr ""
+
+#: designer-function.php:239
+msgid "Custom Design"
+msgstr ""
+
+#: designer-function.php:330 designer-function.php:348
+msgid "Customize"
+msgstr ""
+
+#: designer.php:60
+msgid "Sample templates:"
+msgstr ""
+
+#: designer.php:87
+msgid "Sorry no template found for this item."
+msgstr ""
+
+#: designer.php:145 designer.php:841
+msgid "Original design."
+msgstr ""
+
+#: designer.php:152 designer.php:848
+msgid "Your design."
+msgstr ""
+
+#: designer.php:155 designer.php:851
+msgid "Empty"
+msgstr ""
+
+#: designer.php:170 designer.php:866
+msgid "Not avilable."
+msgstr ""
+
+#: designer.php:186
+msgid "Clip Art"
+msgstr ""
+
+#: designer.php:189
+msgid "Categories"
+msgstr ""
+
+#: designer.php:201 functions.php:295 functions.php:324
+msgid "All"
+msgstr ""
+
+#: designer.php:234
+msgid "Upload custom clipart"
+msgstr ""
+
+#: designer.php:234 functions.php:622 order-meta.php:81 order-meta.php:98
+#: order-meta.php:138 tshirt-designer-meta.php:81 tshirt-designer-meta.php:98
+#: tshirt-designer-meta.php:138
+msgid "Upload"
+msgstr ""
+
+#: designer.php:251
+msgid "Allowed Files"
+msgstr ""
+
+#: designer.php:411
+msgid "Add Text"
+msgstr ""
+
+#: designer.php:421
+msgid "Rectangle"
+msgstr ""
+
+#: designer.php:422
+msgid "Circle"
+msgstr ""
+
+#: designer.php:423
+msgid "Triangle"
+msgstr ""
+
+#: designer.php:446
+msgid "Create New"
+msgstr ""
+
+#: designer.php:447
+msgid "Update"
+msgstr ""
+
+#: designer.php:461
+msgid "Finalize"
+msgstr ""
+
+#: designer.php:465
+msgid "Loading"
+msgstr ""
+
+#: designer.php:479
+msgid "Text Content"
+msgstr ""
+
+#: designer.php:480
+msgid "Fonts"
+msgstr ""
+
+#: designer.php:482 designer.php:575
+msgid "Color"
+msgstr ""
+
+#: designer.php:493
+msgid "Font family"
+msgstr ""
+
+#: designer.php:514
+msgid "Bold text"
+msgstr ""
+
+#: designer.php:515
+msgid "Italic text"
+msgstr ""
+
+#: designer.php:516
+msgid "Underline text"
+msgstr ""
+
+#: designer.php:517
+msgid "Strikethrough text"
+msgstr ""
+
+#: designer.php:519
+msgid "Rotate left"
+msgstr ""
+
+#: designer.php:523
+msgid "Rotate right"
+msgstr ""
+
+#: designer.php:536 designer.php:565
+msgid "Flip vertical"
+msgstr ""
+
+#: designer.php:537 designer.php:566
+msgid "Flip horizontal"
+msgstr ""
+
+#: designer.php:538
+msgid "Lock X movement"
+msgstr ""
+
+#: designer.php:539
+msgid "Lock Y movement"
+msgstr ""
+
+#: designer.php:540
+msgid "Lock rotation"
+msgstr ""
+
+#: designer.php:541
+msgid "Lock X Scaling"
+msgstr ""
+
+#: designer.php:542
+msgid "Lock Y Scaling"
+msgstr ""
+
+#: designer.php:545 designer.php:568 designer.php:579
+msgid "Delete"
+msgstr ""
+
+#: designer.php:551 designer.php:576
+msgid "Duplicate"
+msgstr ""
+
+#: designer.php:552
+msgid "Center horizontally"
+msgstr ""
+
+#: designer.php:553
+msgid "Center vertically"
+msgstr ""
+
+#: designer.php:693
+msgid "Add to cart"
+msgstr ""
+
+#: designer.php:701
+msgid "View Cart"
+msgstr ""
+
+#: designer.php:737
+msgid "Add to Cart"
+msgstr ""
+
+#: designer.php:748
+msgid "Order submitted"
+msgstr ""
+
+#: functions.php:257
+msgid "No product for design."
+msgstr ""
+
+#: functions.php:294
+msgid "Categories:"
+msgstr ""
+
+#: functions.php:305 functions.php:335
+msgid "Loading."
+msgstr ""
+
+#: functions.php:518
+msgid "No sticker for this category."
+msgstr ""
+
+#: functions.php:620
+msgid "loading"
+msgstr ""
+
+#: functions.php:622
+#, php-format
+msgid "filetype: (gif, png), max size: %s"
+msgstr ""
+
+#: functions.php:941
+msgid "Front Image"
+msgstr ""
+
+#: functions.php:947
+msgid "Back Image"
+msgstr ""
+
+#: menu/help.php:13
+#, php-format
+msgid "%s Help"
+msgstr ""
+
+#: menu/help.php:35
+msgid "Need Help ?"
+msgstr ""
+
+#: menu/help.php:65
+msgid "Watch video tutorial"
+msgstr ""
+
+#: menu/help.php:91
+msgid "FAQ"
+msgstr ""
+
+#: menu/settings.php:43
+msgid "Changes Saved."
+msgstr ""
+
+#: menu/settings.php:51
+#, php-format
+msgid "%s Settings"
+msgstr ""
+
+#: menu/settings.php:68
+msgid "Options"
+msgstr ""
+
+#: menu/settings.php:79
+msgid "Designer page id"
+msgstr ""
+
+#: menu/settings.php:108
+msgid "Number of items on list"
+msgstr ""
+
+#: menu/settings.php:114
+msgid "Product designer on post type"
+msgstr ""
+
+#: menu/settings.php:147
+msgid "User can upload clipart"
+msgstr ""
+
+#: menu/settings.php:150
+msgid "No"
+msgstr ""
+
+#: menu/settings.php:151
+msgid "Yes"
+msgstr ""
+
+#: menu/settings.php:170
+msgid "Save Changes"
+msgstr ""
+
+#: order-meta.php:24 tshirt-designer-meta.php:24
+msgid "Product Designer Options"
+msgstr ""
+
+#: order-meta.php:79 order-meta.php:96 order-meta.php:138 order-meta.php:217
+#: tshirt-designer-meta.php:79 tshirt-designer-meta.php:96
+#: tshirt-designer-meta.php:138 tshirt-designer-meta.php:223
+msgid "Name"
+msgstr ""
+
+#: order-meta.php:112 tshirt-designer-meta.php:112
+msgid "Add more"
+msgstr ""
+
+#: order-meta.php:163 order-meta.php:165 tshirt-designer-meta.php:163
+#: tshirt-designer-meta.php:165
+msgid "Choose Image"
+msgstr ""
+
+#: order-meta.php:194 tshirt-designer-meta.php:194
+msgid "Templates"
+msgstr ""
+
+#: tshirt-designer-meta.php:56
+msgid "Item sides"
+msgstr ""

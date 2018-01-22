@@ -1,0 +1,53 @@
+.wpd-design-composition img
+{
+    max-height: 60px;
+    max-width: 60px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.wpd-design-composition
+{
+    border: 1px solid rgba(0,0,0,.1);
+    width: 100%;
+}
+.wpd-design-composition td
+{
+    padding: 0 !important;
+}
+.wpd-design-composition, .wpd-design-composition table
+{
+    border-spacing: 0;
+}
+.wpc-part-details > table
+{
+    width: 100%;
+}
+.wpc-part-details > table td
+{
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding: 10px !important;
+}
+.wpc-part-details > table tr td:first-of-type
+{
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+.wpc-part-details
+{
+    border-left: 1px solid rgba(0,0,0,.1);
+}
+td[class*='wpc-col-']
+{
+    float: none !important;
+}
+/*.wpd-design-composition .wpc-part-name, .wpd-design-composition .wpc-part-details
+{
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 10px;
+}*/
+.wpd-design-composition .wpc-part-name
+{
+    border-right: none;
+}
+/*[class*='wpc-col-'], [class*='wpc-col-'] * {
+    box-sizing: border-box;
+}*/
